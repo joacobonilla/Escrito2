@@ -1,0 +1,30 @@
+3-Versionar con git, y subir a Github. Se deben tener al menos 8 commits que versionen paso a paso el desarrollo de la aplicacion
+
+1er commit:   git add Persona.php
+git commit -m "Create Persona model"
+
+2do commit:   git add PersonaController.php
+git commit -m "Create Persona controller"
+
+
+3er commit:    git add routes/web.php
+git commit -m "Define routes for personas"
+
+
+4to commit:    git add resources/views/personas/*
+git commit -m "Create basic persona views"
+
+
+5to commit:   git commit -m "Implement index action in Persona controller"
+
+6to commit: git commit -m "Implement create action in Persona controller"
+
+7mo commit: git commit -m "Implement show action in Persona controller"
+
+8vo commit:  git commit -m "Implement edit and update actions in Persona controller"
+
+9no:    git add PersonaController.php
+git commit -m "Implement destroy action in Persona controller"
+
+10mo: git add PersonaController.php resources/views/personas/index.blade.php
+git commit -m "Implement search functionality"
